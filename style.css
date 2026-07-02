@@ -2,6 +2,14 @@ nav ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right{
+    margin-left: auto;
+    font-size: 20px;
 }
 
 nav li {
@@ -9,9 +17,12 @@ nav li {
 }
 
 nav{
-    background-color: #F4ECE1; 
-    padding: 50px 10px;
-    text-align: left middle;
+    background-color: #FDF7F2; 
+    padding: 10px 10px;
+    text-align: left;
+    border-bottom: 5px lightgray;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding-bottom: 5px;
 }
 
 nav a{
@@ -19,8 +30,18 @@ nav a{
     text-decoration: none;
     padding: 30px;
     border-radius: 10px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px 
+}
+
+
+
+body{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    background-color: #FDF7F2; 
 }
 
 nav a:hover{
@@ -29,7 +50,52 @@ nav a:hover{
 
 #home {
     width: 40px;
-    height: 40px;
+    height: auto;
+    text-align: left;
+    display: block;
 }
+
+#home:hover{
+    color: #4f351c;
+}
+
+.homeheader { 
+  color: #FDF7F2; 
+  margin: 0; 
+  font-size: 24px;
+} 
+
+.header { 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px;
+  background-color: #2d1e10; 
+  padding: 30px; 
+  width: 100%;
+  box-sizing: border-box;
+} 
+
+button { 
+  display: inline-block; 
+  background: transparent;
+  border: 2px solid #FDF7F2; 
+  border-radius: 50px;       
+  padding: 10px 20px;        
+}
+
+button a {
+  color: #FDF7F2;
+  text-decoration: none;     
+  font-weight: bold;
+}
+
+button:hover{
+    background-color: #4f351c;
+}
+
+
 /* #dark brown #2d1e10  */
 /* #espresso brown #4f351c */
+/* #sand #FDF7F2 */
