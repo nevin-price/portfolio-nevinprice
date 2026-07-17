@@ -49,6 +49,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     background-color: #fdf7f2;
+    margin: 0;
 }
 
 nav a:hover {
@@ -165,24 +166,25 @@ footer {
 
 #contact-page { 
     justify-content: center;
-    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact-body {
-    display: flex;
-    flex-direction: column;
+    display: block;
     min-height: 100vh;
-    margin: 0;
+
 }
 
 #contact-block {
     display: flex;
     flex-direction: row;
     color: black;
-    flex: 1 0 auto;    
     align-items: center;
     font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
+    flex: 1;
 
 }
 
